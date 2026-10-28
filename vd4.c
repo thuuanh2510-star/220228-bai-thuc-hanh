@@ -1,6 +1,12 @@
 #include<stdio.h>
 int main (void)
 {
-	printf(" ");
+	int i;
+	i=1;
+	while(i<=10)
+	{
+		printf("%d\t",i);
+		i=i+1;
+	}	
 	return 0;
 }
